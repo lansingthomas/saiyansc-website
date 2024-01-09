@@ -1,0 +1,29 @@
+.button {
+    background-color: #555; /* Dark grey background */
+    color: white; /* White text */
+    border: 3px outset #888; /* Light grey border for beveled look */
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button:hover, .button:active {
+    background-color: #333; /* Slightly darker background on hover/active */
+    border: 3px inset #888; /* Inset border for pressed effect */
+}
+
+
+.footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
