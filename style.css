@@ -1,6 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.body-content {
+    min-height: 100%;
+    /* Use flexbox to organize content and footer */
+    display: flex;
+    flex-direction: column;
+}
+
 .button {
     background-color: #555; /* Dark grey background */
-    color: white; /* White text */
+    color: rgb(246, 243, 247); /* White text */
     border: 3px outset #888; /* Light grey border for beveled look */
     padding: 10px 20px;
     text-transform: uppercase;
@@ -12,12 +25,13 @@
 }
 
 .button:hover, .button:active {
-    background-color: #333; /* Slightly darker background on hover/active */
+    background-color: #333333; /* Slightly darker background on hover/active */
     border: 3px inset #888; /* Inset border for pressed effect */
 }
 
 
 .footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
     background-color: #333; /* Dark background for footer */
     color: #fff; /* White text */
     text-align: center;
@@ -26,4 +40,26 @@
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+
+.my-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px; /* Adjusts space below the image */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
 }
